@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "name": "my-package",
   "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
     "start": "react-scripts start",
     "prebuild": "CI=true react-scripts test --colors",
     "build": "react-scripts build",
