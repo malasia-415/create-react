@@ -6,7 +6,7 @@
   "name": "my-package",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest"
+    "test": "jest",
     "start": "react-scripts start",
     "prebuild": "CI=true react-scripts test --colors",
     "build": "react-scripts build",
